@@ -1,0 +1,20 @@
+2026-08-10 09:28:45 INFO  LoggerUtil:14 - Starting scenario: Valid search for multiple products
+2026-08-10 09:29:03 INFO  LoggerUtil:21 - Opened Flipkart homepage
+2026-08-10 09:29:17 INFO  LoggerUtil:28 - Searched for product: iPhone 16
+2026-08-10 09:29:17 INFO  LoggerUtil:26 - Scenario finished: Valid search for multiple products
+2026-08-10 09:29:17 INFO  LoggerUtil:14 - Starting scenario: Valid search for multiple products
+2026-08-10 09:29:26 INFO  LoggerUtil:21 - Opened Flipkart homepage
+2026-08-10 09:29:30 INFO  LoggerUtil:28 - Searched for product: Samsung Galaxy
+2026-08-10 09:29:30 INFO  LoggerUtil:26 - Scenario finished: Valid search for multiple products
+2026-08-10 09:29:30 INFO  LoggerUtil:14 - Starting scenario: Valid search for multiple products
+2026-08-10 09:29:47 INFO  LoggerUtil:21 - Opened Flipkart homepage
+2026-08-10 09:29:53 INFO  LoggerUtil:28 - Searched for product: Wireless Earbuds
+2026-08-10 09:29:53 INFO  LoggerUtil:26 - Scenario finished: Valid search for multiple products
+2026-08-10 09:29:53 INFO  LoggerUtil:14 - Starting scenario: Valid search for multiple products
+2026-08-10 09:30:03 INFO  LoggerUtil:21 - Opened Flipkart homepage
+2026-08-10 09:30:08 INFO  LoggerUtil:28 - Searched for product: Laptop
+2026-08-10 09:30:08 INFO  LoggerUtil:26 - Scenario finished: Valid search for multiple products
+2026-08-10 09:30:08 INFO  LoggerUtil:14 - Starting scenario: Search with special characters
+2026-08-10 09:30:19 INFO  LoggerUtil:21 - Opened Flipkart homepage
+2026-08-10 09:30:28 INFO  LoggerUtil:28 - Searched for product: @#$%^
+2026-08-10 09:30:28 INFO  LoggerUtil:26 - Scenario finished: Search with special characters

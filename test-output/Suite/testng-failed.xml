@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="2" parallel="tests" name="Chrome Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.automation.runner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.automation.runner.TestRunner -->
+    </classes>
+  </test> <!-- Chrome Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

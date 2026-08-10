@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-10T09:28:44 IST" name="Suite" finished-at="2026-08-10T09:30:29 IST" duration-ms="104089">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runner.TestRunner@6c6cb480]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-08-10T09:28:44 IST" name="Chrome Tests" finished-at="2026-08-10T09:30:29 IST" duration-ms="104089">
+      <class name="com.automation.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.automation.runner.TestRunner@6c6cb480]" started-at="2026-08-10T09:28:44 IST" name="setUpClass" finished-at="2026-08-10T09:28:45 IST" duration-ms="597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@13b13b5d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runner.TestRunner@6c6cb480]" started-at="2026-08-10T09:28:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-10T09:29:17 IST" duration-ms="31800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid search for multiple products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Search on Flipkart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runner.TestRunner@6c6cb480]" started-at="2026-08-10T09:29:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-10T09:29:30 IST" duration-ms="13489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid search for multiple products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Search on Flipkart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runner.TestRunner@6c6cb480]" started-at="2026-08-10T09:29:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-10T09:29:53 IST" duration-ms="23114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid search for multiple products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Search on Flipkart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runner.TestRunner@6c6cb480]" started-at="2026-08-10T09:29:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-10T09:30:08 IST" duration-ms="14926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid search for multiple products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Search on Flipkart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runner.TestRunner@6c6cb480]" started-at="2026-08-10T09:30:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-10T09:30:28 IST" duration-ms="19847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search with special characters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product Search on Flipkart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.automation.runner.TestRunner@6c6cb480]" started-at="2026-08-10T09:30:28 IST" name="tearDownClass" finished-at="2026-08-10T09:30:29 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.automation.runner.TestRunner -->
+    </test> <!-- Chrome Tests -->
+  </suite> <!-- Suite -->
+</testng-results>

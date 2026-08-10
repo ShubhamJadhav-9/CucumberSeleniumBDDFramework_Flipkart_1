@@ -1,0 +1,8 @@
+com\automation\pages\FlipkartHomePage.class
+com\automation\pages\SearchResultsPage.class
+com\automation\runner\TestRunner.class
+com\automation\utils\PropertiesReader.class
+com\automation\utils\DriverManager.class
+com\automation\hooks\Hooks.class
+com\automation\stepdefs\SearchSteps.class
+com\automation\utils\LoggerUtil.class
