@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="104.449" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="1106.976" tests="5" errors="0" skipped="0" failures="5">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="webdriver.chrome.driver" value="C:\Users\W11\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe"/>
@@ -11,12 +11,13 @@
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="suiteXmlFile" value="testng.xml"/>
     <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.12\bin"/>
-    <property name="sun.java.command" value="C:\Users\W11\AppData\Local\Temp\surefire16248689926637229833\surefirebooter-20260810092844297_3.jar C:\Users\W11\AppData\Local\Temp\surefire16248689926637229833 2026-08-10T09-28-44_170-jvmRun1 surefire-20260810092844297_1tmp surefire_0-20260810092844297_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\W11\AppData\Local\Temp\surefire12569408882111223406\surefirebooter-20260810150347157_3.jar C:\Users\W11\AppData\Local\Temp\surefire12569408882111223406 2026-08-10T15-03-47_035-jvmRun1 surefire-20260810150347157_1tmp surefire_0-20260810150347157_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\W11\eclipse-workspace\CucumberSeleniumBDDFramework_Flipkart\target\test-classes;C:\Users\W11\eclipse-workspace\CucumberSeleniumBDDFramework_Flipkart\target\classes;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-java\4.41.0\selenium-java-4.41.0.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-api\4.41.0\selenium-api-4.41.0.jar;C:\Users\W11\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.41.0\selenium-chrome-driver-4.41.0.jar;C:\Users\W11\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.41.0\selenium-chromium-driver-4.41.0.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-json\4.41.0\selenium-json-4.41.0.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.41.0\selenium-manager-4.41.0.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.41.0\selenium-devtools-v143-4.41.0.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.41.0\selenium-devtools-v144-4.41.0.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.41.0\selenium-devtools-v145-4.41.0.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.41.0\selenium-edge-driver-4.41.0.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.41.0\selenium-firefox-driver-4.41.0.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-http\4.41.0\selenium-http-4.41.0.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.41.0\selenium-ie-driver-4.41.0.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.41.0\selenium-remote-driver-4.41.0.jar;C:\Users\W11\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\W11\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\W11\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\W11\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\W11\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\W11\.m2\repository\io\opentelemetry\opentelemetry-api\1.59.0\opentelemetry-api-1.59.0.jar;C:\Users\W11\.m2\repository\io\opentelemetry\opentelemetry-context\1.59.0\opentelemetry-context-1.59.0.jar;C:\Users\W11\.m2\repository\io\opentelemetry\opentelemetry-common\1.59.0\opentelemetry-common-1.59.0.jar;C:\Users\W11\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.59.0\opentelemetry-exporter-logging-1.59.0.jar;C:\Users\W11\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.59.0\opentelemetry-sdk-common-1.59.0.jar;C:\Users\W11\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.59.0\opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar;C:\Users\W11\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.59.0\opentelemetry-sdk-extension-autoconfigure-1.59.0.jar;C:\Users\W11\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.59.0\opentelemetry-sdk-trace-1.59.0.jar;C:\Users\W11\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.59.0\opentelemetry-sdk-1.59.0.jar;C:\Users\W11\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.59.0\opentelemetry-sdk-metrics-1.59.0.jar;C:\Users\W11\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.59.0\opentelemetry-sdk-logs-1.59.0.jar;C:\Users\W11\.m2\repository\net\bytebuddy\byte-buddy\1.18.5\byte-buddy-1.18.5.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-os\4.41.0\selenium-os-4.41.0.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.41.0\selenium-safari-driver-4.41.0.jar;C:\Users\W11\.m2\repository\org\seleniumhq\selenium\selenium-support\4.41.0\selenium-support-4.41.0.jar;C:\Users\W11\.m2\repository\io\cucumber\cucumber-java\7.34.3\cucumber-java-7.34.3.jar;C:\Users\W11\.m2\repository\io\cucumber\cucumber-core\7.34.3\cucumber-core-7.34.3.jar;C:\Users\W11\.m2\repository\io\cucumber\cucumber-gherkin\7.34.3\cucumber-gherkin-7.34.3.jar;C:\Users\W11\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.3\cucumber-gherkin-messages-7.34.3.jar;C:\Users\W11\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\W11\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\W11\.m2\repository\io\cucumber\messages-ndjson\0.3.2\messages-ndjson-0.3.2.jar;C:\Users\W11\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\W11\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\W11\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\W11\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\W11\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\W11\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\W11\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\W11\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\W11\.m2\repository\io\cucumber\datatable\7.34.3\datatable-7.34.3.jar;C:\Users\W11\.m2\repository\io\cucumber\cucumber-plugin\7.34.3\cucumber-plugin-7.34.3.jar;C:\Users\W11\.m2\repository\io\cucumber\docstring\7.34.3\docstring-7.34.3.jar;C:\Users\W11\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\W11\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\W11\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\W11\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\W11\.m2\repository\io\cucumber\cucumber-testng\7.34.3\cucumber-testng-7.34.3.jar;C:\Users\W11\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\W11\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\W11\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\W11\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\W11\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\W11\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\W11\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\W11\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\W11\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\W11\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\W11\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\W11\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\W11\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\W11\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\W11\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\W11\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\W11\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\W11\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\W11\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\W11\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\W11\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\W11\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\W11\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\W11\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\W11\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\W11\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\W11\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\W11\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\W11\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\W11\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\W11\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\W11\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\W11\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\W11\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\W11\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\W11\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\W11\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\W11\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\W11\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\W11\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\W11\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\W11\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\W11\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\W11\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\W11\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\W11\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\W11\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\W11\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\W11\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\W11\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\W11\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\W11\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\W11\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\W11\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\W11\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\W11\.m2\repository\commons-codec\commons-codec\1.19.0\commons-codec-1.19.0.jar;C:\Users\W11\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\W11\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\W11\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\W11\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\W11\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\W11\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\W11\.m2\repository\org\slf4j\slf4j-nop\2.0.16\slf4j-nop-2.0.16.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\W11\AppData\Local\Temp\surefire16248689926637229833\surefirebooter-20260810092844297_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\W11\AppData\Local\Temp\surefire12569408882111223406\surefirebooter-20260810150347157_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.12+7-LTS-205"/>
@@ -51,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/W11/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.12.v20260801-1229/jre/bin/server;C:/Users/W11/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.12.v20260801-1229/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.9.16\bin;C:\Program Files\Java\jdk-21.0.12\bin;C:\Users\W11\AppData\Local\Microsoft\WindowsApps;C:\apache-maven-3.9.16\bin;C:\Program Files\Java\jdk-21.0.12\bin;;C:\Users\W11\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/W11/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.12.v20260801-1229/jre/bin/server;C:/Users/W11/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.12.v20260801-1229/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.9.16\bin;C:\Program Files\Java\jdk-21.0.12\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\W11\AppData\Local\Microsoft\WindowsApps;C:\apache-maven-3.9.16\bin;C:\Program Files\Java\jdk-21.0.12\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;;C:\Users\W11\Desktop;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -59,94 +60,379 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Valid search for multiple products&quot;, &quot;Product Search on Flipkart&quot;](1)" classname="com.automation.runner.TestRunner" time="31.802">
+  <testcase name="runScenario[&quot;Valid search for multiple products&quot;, &quot;Product Search on Flipkart&quot;](1)" classname="com.automation.runner.TestRunner" time="302.848">
+    <failure message="java.util.concurrent.TimeoutException&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [1aff19fed7bd1b8986f8187ff88519fc, get {url=https://www.flipkart.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60901}, goog:processID: 15356, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60901/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1aff19fed7bd1b8986f8187ff88519fc" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1aff19fed7bd1b8986f8187ff88519fc, get {url=https://www.flipkart.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60901}, goog:processID: 15356, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60901/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1aff19fed7bd1b8986f8187ff88519fc
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:429)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:372)
+	at com.automation.pages.FlipkartHomePage.openFlipkart(FlipkartHomePage.java:20)
+	at com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage(SearchSteps.java:15)
+	at ✽.user is on Flipkart homepage(file:///C:/Users/W11/eclipse-workspace/CucumberSeleniumBDDFramework_Flipkart/src/test/resources/features/search.feature:6)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
     <system-out><![CDATA[
 @smoke @regression @valid
 Scenario Outline: Valid search for multiple products        # src/test/resources/features/search.feature:11
-2026-08-10 09:28:45 INFO  LoggerUtil:14 - Starting scenario: Valid search for multiple products
-2026-08-10 09:29:03 INFO  LoggerUtil:21 - Opened Flipkart homepage
-  ✔ Given user is on Flipkart homepage                      # com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage()
-2026-08-10 09:29:17 INFO  LoggerUtil:28 - Searched for product: iPhone 16
-  ✔ When user searches for "iPhone 16"                      # com.automation.stepdefs.SearchSteps.user_searches_for(java.lang.String)
-  ✔ Then search results should be displayed for "iPhone 16" # com.automation.stepdefs.SearchSteps.search_results_should_be_displayed_for(java.lang.String)
-2026-08-10 09:29:17 INFO  LoggerUtil:26 - Scenario finished: Valid search for multiple products
+2026-08-10 15:03:48 INFO  LoggerUtil:14 - Starting scenario: Valid search for multiple products
+  ✘ Given user is on Flipkart homepage                      # com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage()
+        org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+        Build info: version: '4.41.0', revision: '9fc754f'
+        System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+        Driver info: org.openqa.selenium.chrome.ChromeDriver
+        Command: [1aff19fed7bd1b8986f8187ff88519fc, get {url=https://www.flipkart.com/}]
+        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60901}, goog:processID: 15356, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60901/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+        Session ID: 1aff19fed7bd1b8986f8187ff88519fc
+        	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:429)
+        	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+        	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:372)
+        	at com.automation.pages.FlipkartHomePage.openFlipkart(FlipkartHomePage.java:20)
+        	at com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage(SearchSteps.java:15)
+        	at ✽.user is on Flipkart homepage(file:///C:/Users/W11/eclipse-workspace/CucumberSeleniumBDDFramework_Flipkart/src/test/resources/features/search.feature:6)
+        Caused by: java.util.concurrent.TimeoutException
+        	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
+        	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+        	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+        	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+        	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+        	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+        	at java.base/java.lang.Thread.run(Thread.java:1583)
+  ↷ When user searches for "iPhone 16"                      # com.automation.stepdefs.SearchSteps.user_searches_for(java.lang.String)
+  ↷ Then search results should be displayed for "iPhone 16" # com.automation.stepdefs.SearchSteps.search_results_should_be_displayed_for(java.lang.String)
+
+        Embedding Failed Screenshot [image/png 6270 bytes]
+
+2026-08-10 15:08:51 ERROR LoggerUtil:23 - Scenario FAILED: Valid search for multiple products
+2026-08-10 15:08:51 INFO  LoggerUtil:26 - Scenario finished: Valid search for multiple products
 ]]></system-out>
-    <system-err><![CDATA[Aug 10, 2026 9:28:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Aug 10, 2026 3:03:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 151
-Aug 10, 2026 9:28:47 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Aug 10, 2026 3:03:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 151.0.7922.77. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.41.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Valid search for multiple products&quot;, &quot;Product Search on Flipkart&quot;](2)" classname="com.automation.runner.TestRunner" time="13.489">
+  <testcase name="runScenario[&quot;Valid search for multiple products&quot;, &quot;Product Search on Flipkart&quot;](2)" classname="com.automation.runner.TestRunner" time="360.98">
+    <failure message="java.util.concurrent.TimeoutException&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [11432d06faf9be39732a7bfebd76828d, get {url=https://www.flipkart.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59638}, goog:processID: 13444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59638/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 11432d06faf9be39732a7bfebd76828d" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [11432d06faf9be39732a7bfebd76828d, get {url=https://www.flipkart.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59638}, goog:processID: 13444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59638/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11432d06faf9be39732a7bfebd76828d
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:429)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:372)
+	at com.automation.pages.FlipkartHomePage.openFlipkart(FlipkartHomePage.java:20)
+	at com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage(SearchSteps.java:15)
+	at ✽.user is on Flipkart homepage(file:///C:/Users/W11/eclipse-workspace/CucumberSeleniumBDDFramework_Flipkart/src/test/resources/features/search.feature:6)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
     <system-out><![CDATA[
 @smoke @regression @valid
 Scenario Outline: Valid search for multiple products             # src/test/resources/features/search.feature:12
-2026-08-10 09:29:17 INFO  LoggerUtil:14 - Starting scenario: Valid search for multiple products
-2026-08-10 09:29:26 INFO  LoggerUtil:21 - Opened Flipkart homepage
-  ✔ Given user is on Flipkart homepage                           # com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage()
-2026-08-10 09:29:30 INFO  LoggerUtil:28 - Searched for product: Samsung Galaxy
-  ✔ When user searches for "Samsung Galaxy"                      # com.automation.stepdefs.SearchSteps.user_searches_for(java.lang.String)
-  ✔ Then search results should be displayed for "Samsung Galaxy" # com.automation.stepdefs.SearchSteps.search_results_should_be_displayed_for(java.lang.String)
-2026-08-10 09:29:30 INFO  LoggerUtil:26 - Scenario finished: Valid search for multiple products
+2026-08-10 15:08:51 INFO  LoggerUtil:14 - Starting scenario: Valid search for multiple products
+  ✘ Given user is on Flipkart homepage                           # com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage()
+        org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+        Build info: version: '4.41.0', revision: '9fc754f'
+        System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+        Driver info: org.openqa.selenium.chrome.ChromeDriver
+        Command: [11432d06faf9be39732a7bfebd76828d, get {url=https://www.flipkart.com/}]
+        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59638}, goog:processID: 13444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59638/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+        Session ID: 11432d06faf9be39732a7bfebd76828d
+        	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:429)
+        	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+        	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:372)
+        	at com.automation.pages.FlipkartHomePage.openFlipkart(FlipkartHomePage.java:20)
+        	at com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage(SearchSteps.java:15)
+        	at ✽.user is on Flipkart homepage(file:///C:/Users/W11/eclipse-workspace/CucumberSeleniumBDDFramework_Flipkart/src/test/resources/features/search.feature:6)
+        Caused by: java.util.concurrent.TimeoutException
+        	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
+        	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+        	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+        	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+        	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+        	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+        	at java.base/java.lang.Thread.run(Thread.java:1583)
+  ↷ When user searches for "Samsung Galaxy"                      # com.automation.stepdefs.SearchSteps.user_searches_for(java.lang.String)
+  ↷ Then search results should be displayed for "Samsung Galaxy" # com.automation.stepdefs.SearchSteps.search_results_should_be_displayed_for(java.lang.String)
+        org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+        Build info: version: '4.41.0', revision: '9fc754f'
+        System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+        Driver info: org.openqa.selenium.chrome.ChromeDriver
+        Command: [11432d06faf9be39732a7bfebd76828d, screenshot {}]
+        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59638}, goog:processID: 13444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59638/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+        Session ID: 11432d06faf9be39732a7bfebd76828d
+        	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:429)
+        	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
+        	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:393)
+        	at com.automation.hooks.Hooks.tearDown(Hooks.java:21)
+        Caused by: java.util.concurrent.TimeoutException
+        	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
+        	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+        	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+        	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+        	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+        	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+        	at java.base/java.lang.Thread.run(Thread.java:1583)
 ]]></system-out>
-    <system-err><![CDATA[Aug 10, 2026 9:29:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Aug 10, 2026 3:08:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 151
-Aug 10, 2026 9:29:18 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Aug 10, 2026 3:08:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 151.0.7922.77. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.41.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Valid search for multiple products&quot;, &quot;Product Search on Flipkart&quot;](3)" classname="com.automation.runner.TestRunner" time="23.113">
+  <testcase name="runScenario[&quot;Valid search for multiple products&quot;, &quot;Product Search on Flipkart&quot;](3)" classname="com.automation.runner.TestRunner" time="192.659">
+    <failure message="Timeout when executing request (POST http://localhost:26069/session/11432d06faf9be39732a7bfebd76828d/url)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [11432d06faf9be39732a7bfebd76828d, get {url=https://www.flipkart.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59638}, goog:processID: 13444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59638/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 11432d06faf9be39732a7bfebd76828d" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Timeout when executing request (POST http://localhost:26069/session/11432d06faf9be39732a7bfebd76828d/url)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [11432d06faf9be39732a7bfebd76828d, get {url=https://www.flipkart.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59638}, goog:processID: 13444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59638/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11432d06faf9be39732a7bfebd76828d
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:485)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:44)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:389)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.http.HttpTimeoutException: request timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:953)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:463)
+	... 8 more
+]]></failure>
     <system-out><![CDATA[
 @smoke @regression @valid
 Scenario Outline: Valid search for multiple products               # src/test/resources/features/search.feature:13
-2026-08-10 09:29:30 INFO  LoggerUtil:14 - Starting scenario: Valid search for multiple products
-2026-08-10 09:29:47 INFO  LoggerUtil:21 - Opened Flipkart homepage
-  ✔ Given user is on Flipkart homepage                             # com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage()
-2026-08-10 09:29:53 INFO  LoggerUtil:28 - Searched for product: Wireless Earbuds
-  ✔ When user searches for "Wireless Earbuds"                      # com.automation.stepdefs.SearchSteps.user_searches_for(java.lang.String)
-  ✔ Then search results should be displayed for "Wireless Earbuds" # com.automation.stepdefs.SearchSteps.search_results_should_be_displayed_for(java.lang.String)
-2026-08-10 09:29:53 INFO  LoggerUtil:26 - Scenario finished: Valid search for multiple products
+2026-08-10 15:14:52 INFO  LoggerUtil:14 - Starting scenario: Valid search for multiple products
+  ✘ Given user is on Flipkart homepage                             # com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage()
+        org.openqa.selenium.TimeoutException: Timeout when executing request (POST http://localhost:26069/session/11432d06faf9be39732a7bfebd76828d/url)
+        Build info: version: '4.41.0', revision: '9fc754f'
+        System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+        Driver info: org.openqa.selenium.chrome.ChromeDriver
+        Command: [11432d06faf9be39732a7bfebd76828d, get {url=https://www.flipkart.com/}]
+        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59638}, goog:processID: 13444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59638/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+        Session ID: 11432d06faf9be39732a7bfebd76828d
+        	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:485)
+        	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:44)
+        	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+        	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:389)
+        	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+        	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+        	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+        	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+        	at java.base/java.lang.Thread.run(Thread.java:1583)
+        Caused by: java.net.http.HttpTimeoutException: request timed out
+        	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:953)
+        	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+        	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:463)
+        	... 8 more
+  ↷ When user searches for "Wireless Earbuds"                      # com.automation.stepdefs.SearchSteps.user_searches_for(java.lang.String)
+  ↷ Then search results should be displayed for "Wireless Earbuds" # com.automation.stepdefs.SearchSteps.search_results_should_be_displayed_for(java.lang.String)
+
+        Embedding Failed Screenshot [image/png 133437 bytes]
+
+2026-08-10 15:18:04 ERROR LoggerUtil:23 - Scenario FAILED: Valid search for multiple products
+2026-08-10 15:18:04 INFO  LoggerUtil:26 - Scenario finished: Valid search for multiple products
 ]]></system-out>
-    <system-err><![CDATA[Aug 10, 2026 9:29:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 151
-Aug 10, 2026 9:29:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 151.0.7922.77. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.41.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Valid search for multiple products&quot;, &quot;Product Search on Flipkart&quot;](4)" classname="com.automation.runner.TestRunner" time="14.926">
+  <testcase name="runScenario[&quot;Valid search for multiple products&quot;, &quot;Product Search on Flipkart&quot;](4)" classname="com.automation.runner.TestRunner" time="248.795">
+    <failure message="java.util.concurrent.TimeoutException&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f9dc64868b00acd37fa159c27d47daa6, get {url=https://www.flipkart.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59144}, goog:processID: 15696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59144/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f9dc64868b00acd37fa159c27d47daa6" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9dc64868b00acd37fa159c27d47daa6, get {url=https://www.flipkart.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59144}, goog:processID: 15696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59144/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f9dc64868b00acd37fa159c27d47daa6
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:429)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:372)
+	at com.automation.pages.FlipkartHomePage.openFlipkart(FlipkartHomePage.java:20)
+	at com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage(SearchSteps.java:15)
+	at ✽.user is on Flipkart homepage(file:///C:/Users/W11/eclipse-workspace/CucumberSeleniumBDDFramework_Flipkart/src/test/resources/features/search.feature:6)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
     <system-out><![CDATA[
 @smoke @regression @valid
 Scenario Outline: Valid search for multiple products     # src/test/resources/features/search.feature:14
-2026-08-10 09:29:53 INFO  LoggerUtil:14 - Starting scenario: Valid search for multiple products
-2026-08-10 09:30:03 INFO  LoggerUtil:21 - Opened Flipkart homepage
-  ✔ Given user is on Flipkart homepage                   # com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage()
-2026-08-10 09:30:08 INFO  LoggerUtil:28 - Searched for product: Laptop
-  ✔ When user searches for "Laptop"                      # com.automation.stepdefs.SearchSteps.user_searches_for(java.lang.String)
-  ✔ Then search results should be displayed for "Laptop" # com.automation.stepdefs.SearchSteps.search_results_should_be_displayed_for(java.lang.String)
-2026-08-10 09:30:08 INFO  LoggerUtil:26 - Scenario finished: Valid search for multiple products
+2026-08-10 15:18:04 INFO  LoggerUtil:14 - Starting scenario: Valid search for multiple products
+  ✘ Given user is on Flipkart homepage                   # com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage()
+        org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+        Build info: version: '4.41.0', revision: '9fc754f'
+        System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+        Driver info: org.openqa.selenium.chrome.ChromeDriver
+        Command: [f9dc64868b00acd37fa159c27d47daa6, get {url=https://www.flipkart.com/}]
+        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59144}, goog:processID: 15696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59144/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+        Session ID: f9dc64868b00acd37fa159c27d47daa6
+        	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:429)
+        	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+        	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:372)
+        	at com.automation.pages.FlipkartHomePage.openFlipkart(FlipkartHomePage.java:20)
+        	at com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage(SearchSteps.java:15)
+        	at ✽.user is on Flipkart homepage(file:///C:/Users/W11/eclipse-workspace/CucumberSeleniumBDDFramework_Flipkart/src/test/resources/features/search.feature:6)
+        Caused by: java.util.concurrent.TimeoutException
+        	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
+        	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+        	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+        	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+        	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+        	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+        	at java.base/java.lang.Thread.run(Thread.java:1583)
+  ↷ When user searches for "Laptop"                      # com.automation.stepdefs.SearchSteps.user_searches_for(java.lang.String)
+  ↷ Then search results should be displayed for "Laptop" # com.automation.stepdefs.SearchSteps.search_results_should_be_displayed_for(java.lang.String)
+        org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+        from unknown error: web view not found
+          (Session info: chrome=151.0.7922.77)
+        Build info: version: '4.41.0', revision: '9fc754f'
+        System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+        Driver info: org.openqa.selenium.chrome.ChromeDriver
+        Command: [f9dc64868b00acd37fa159c27d47daa6, screenshot {}]
+        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59144}, goog:processID: 15696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59144/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+        Session ID: f9dc64868b00acd37fa159c27d47daa6
+        	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+        	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+        	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+        	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
+        	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:393)
+        	at com.automation.hooks.Hooks.tearDown(Hooks.java:21)
 ]]></system-out>
-    <system-err><![CDATA[Aug 10, 2026 9:29:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Aug 10, 2026 3:18:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 151
-Aug 10, 2026 9:29:54 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Aug 10, 2026 3:18:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 151.0.7922.77. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.41.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Search with special characters&quot;, &quot;Product Search on Flipkart&quot;](5)" classname="com.automation.runner.TestRunner" time="19.847">
+  <testcase name="runScenario[&quot;Search with special characters&quot;, &quot;Product Search on Flipkart&quot;](5)" classname="com.automation.runner.TestRunner" time="0.048">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=151.0.7922.77)&#10;Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f9dc64868b00acd37fa159c27d47daa6, get {url=https://www.flipkart.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59144}, goog:processID: 15696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59144/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f9dc64868b00acd37fa159c27d47daa6" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=151.0.7922.77)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9dc64868b00acd37fa159c27d47daa6, get {url=https://www.flipkart.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59144}, goog:processID: 15696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59144/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f9dc64868b00acd37fa159c27d47daa6
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:372)
+	at com.automation.pages.FlipkartHomePage.openFlipkart(FlipkartHomePage.java:20)
+	at com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage(SearchSteps.java:15)
+	at ✽.user is on Flipkart homepage(file:///C:/Users/W11/eclipse-workspace/CucumberSeleniumBDDFramework_Flipkart/src/test/resources/features/search.feature:18)
+]]></failure>
     <system-out><![CDATA[
 @smoke @regression @invalid
 Scenario: Search with special characters                # src/test/resources/features/search.feature:17
-2026-08-10 09:30:08 INFO  LoggerUtil:14 - Starting scenario: Search with special characters
-2026-08-10 09:30:19 INFO  LoggerUtil:21 - Opened Flipkart homepage
-  ✔ Given user is on Flipkart homepage                  # com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage()
-2026-08-10 09:30:28 INFO  LoggerUtil:28 - Searched for product: @#$%^
-  ✔ When user searches for "@#$%^"                      # com.automation.stepdefs.SearchSteps.user_searches_for(java.lang.String)
-  ✔ Then search results should be displayed for "@#$%^" # com.automation.stepdefs.SearchSteps.search_results_should_be_displayed_for(java.lang.String)
-2026-08-10 09:30:28 INFO  LoggerUtil:26 - Scenario finished: Search with special characters
+2026-08-10 15:22:13 INFO  LoggerUtil:14 - Starting scenario: Search with special characters
+  ✘ Given user is on Flipkart homepage                  # com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage()
+        org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+        from unknown error: web view not found
+          (Session info: chrome=151.0.7922.77)
+        Build info: version: '4.41.0', revision: '9fc754f'
+        System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+        Driver info: org.openqa.selenium.chrome.ChromeDriver
+        Command: [f9dc64868b00acd37fa159c27d47daa6, get {url=https://www.flipkart.com/}]
+        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59144}, goog:processID: 15696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59144/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+        Session ID: f9dc64868b00acd37fa159c27d47daa6
+        	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+        	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+        	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+        	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+        	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:372)
+        	at com.automation.pages.FlipkartHomePage.openFlipkart(FlipkartHomePage.java:20)
+        	at com.automation.stepdefs.SearchSteps.user_is_on_flipkart_homepage(SearchSteps.java:15)
+        	at ✽.user is on Flipkart homepage(file:///C:/Users/W11/eclipse-workspace/CucumberSeleniumBDDFramework_Flipkart/src/test/resources/features/search.feature:18)
+  ↷ When user searches for "@#$%^"                      # com.automation.stepdefs.SearchSteps.user_searches_for(java.lang.String)
+  ↷ Then search results should be displayed for "@#$%^" # com.automation.stepdefs.SearchSteps.search_results_should_be_displayed_for(java.lang.String)
+        org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+        from unknown error: web view not found
+          (Session info: chrome=151.0.7922.77)
+        Build info: version: '4.41.0', revision: '9fc754f'
+        System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+        Driver info: org.openqa.selenium.chrome.ChromeDriver
+        Command: [f9dc64868b00acd37fa159c27d47daa6, screenshot {}]
+        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\W11\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59144}, goog:processID: 15696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59144/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+        Session ID: f9dc64868b00acd37fa159c27d47daa6
+        	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+        	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+        	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+        	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+        	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
+        	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:393)
+        	at com.automation.hooks.Hooks.tearDown(Hooks.java:21)
 ]]></system-out>
-    <system-err><![CDATA[Aug 10, 2026 9:30:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 151
-Aug 10, 2026 9:30:09 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 151.0.7922.77. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.41.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
 </testsuite>
