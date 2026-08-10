@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR-USERNAME/CucumberSeleniumBDDFramework_Flipkart.git'
+                    url: 'https://github.com/ShubhamJadhav-9/CucumberSeleniumBDDFramework_Flipkart_1.git'
             }
         }
 
